@@ -1,0 +1,9 @@
+{% extends 'sitemap/base.html' %}
+
+{% block title %}
+Map
+{% endblock title %}
+
+{% block content %}
+{{folium_map | safe}}
+{% endblock content %}
